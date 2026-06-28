@@ -1,0 +1,147 @@
+                                                        test=01
+
+                                                  
+BBD Summer Training – Python & NumPy Assessment
+(Online Test / Written Submission)
+Date: __________    Time: 9:30 AM – 10:30 AM    Max Marks: 40
+Instructions:
+•	Attempt individually. No discussion with classmates.
+•	You may type answers in a Word/PDF file or write on paper and upload clear photos before 10:30 AM.
+•	Write your Name, Branch and Roll Number clearly.
+•	MCQ: write only option number/letter. Subjective answers should show logic clearly.
+
+SECTION A – MCQ (15 × 1 = 15 marks)
+1. Which of the following is a valid Python variable name?
+   a) 2name   b) student_name   c) my-name   d) class
+2. Output of print(type(5.0)) is:
+   a) int   b) str   c) float   d) bool
+3. Which keyword is used for conditional checking in Python?
+   a) when   b) if   c) loop   d) check
+4. range(1,5) produces:
+   a) 1 2 3 4   b) 1 2 3 4 5   c) 0 1 2 3 4   d) 2 3 4 5
+5. Which loop is generally used when number of iterations is known?
+   a) if   b) while   c) for   d) break
+6. If mylist = [10,20,30], then mylist[1] is:
+   a) 10   b) 20   c) 30   d) Error
+7. Which list method adds an element at the end?
+   a) add()   b) append()   c) push()   d) join()
+8. NumPy is mainly used for:
+   a) Numerical arrays and calculations   b) Web design   c) Database only   d) Email sending
+9. np.array([1,2,3]).ndim gives:
+   a) 0   b) 1   c) 2   d) 3
+10. len([5,6,7,8]) is:
+   a) 3   b) 4   c) 5   d) 8
+11. Which symbol is used for comments in Python?
+   a) //   b) #   c) /* */   d) --
+12. If a list has 5 elements, the last index is:
+   a) 5   b) 4   c) 3   d) 6
+13. Which statement exits a loop immediately?
+   a) continue   b) break   c) pass   d) stop
+14. np.zeros((2,3)) creates:
+   a) 2 zeros   b) 3 zeros   c) a 2×3 array of zeros   d) one zero
+15. 5 > 3 and 2 > 1 returns:
+   a) False   b) True   c) Error   d) None
+
+SECTION B – Output / Debugging (5 × 2 = 10 marks)
+1. Predict the output:
+   x = 5
+   if x > 2:
+       print("Hello")
+   else:
+       print("Bye")
+2. Predict the output:
+   for i in range(1,4):
+       print(i)
+3. Predict the output:
+   a = [10,20,30]
+   print(a[-1])
+4. Find and correct the error:
+   if 5 > 2
+       print("Yes")
+5. Predict the output:
+   import numpy as np
+   a = np.array([1,2,3,4])
+   print(a.sum())
+
+SECTION C – Subjective / Coding (3 × 5 = 15 marks)
+Q1. Write a Python program to print numbers from 1 to 20 and also print their sum.
+Q2. Take 5 numbers in a list and print the largest number, smallest number and sum of all elements.
+Q3. Using NumPy, create an array of numbers from 1 to 10 and print:
+   (i) the array
+   (ii) mean
+   (iii) maximum value
+   (iv) shape
+
+Submission note: Submit by 10:30 AM in the class group / LMS. Random viva may be conducted on the same answers.
+
+
+                                                
+
+section a 
+
+1.a =student_name
+b.float
+c.if
+d.1234
+e.for
+f.20
+g.append
+h.numerical arrays and calculation
+i.1
+j.4
+k.#
+l.4
+m.break
+n.2*3arrays of zeros 
+o.true
+
+
+section b
+
+2a.hello
+b.123
+c.30
+d.if 5>2:
+e.10
+
+
+section c
+
+3a.sum = 0
+   for i in range(1,21):
+       print(i)
+       sum=sum+i
+   print("sum=",sum)
+
+b.num = [5,10,15,20,25]
+  print("largest no.=",max(num))
+  print("smallest no.=",min(num))
+  print("sum of all the no.=",sum(num))
+  
+c.import numpy as np
+  array=np.array(1,5)
+  print("array:",array)
+  print(np.mean(array))
+  print(np.max(array))
+  print(array.shape)
+
+  
+       
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
